@@ -5,7 +5,7 @@
 	id="WebApp_ID" version="3.1">
 	<display-name>FormAuthenticationTomcat</display-name>
 	<welcome-file-list>
-		<welcome-file>login.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>AuthServlet</servlet-name>
@@ -25,8 +25,9 @@
 		</web-resource-collection>
 
 		<auth-constraint>
-			<role-name>tomcat</role-name>
-			<role-name>dev</role-name>
+			<description />
+			<role-name>employee</role-name>
+			<role-name>manager</role-name>
 		</auth-constraint>
 
 		<user-data-constraint>
