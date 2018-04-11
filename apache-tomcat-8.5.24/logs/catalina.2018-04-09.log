@@ -1,0 +1,151 @@
+09-Apr-2018 16:48:47.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+09-Apr-2018 16:48:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+09-Apr-2018 16:48:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+09-Apr-2018 16:48:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+09-Apr-2018 16:48:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+09-Apr-2018 16:48:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2018 16:48:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+09-Apr-2018 16:48:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+09-Apr-2018 16:48:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2018 16:48:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 16:48:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Servers\apache-tomcat-8.5.24\conf\logging.properties
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2018 16:48:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 16:48:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 16:48:47.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Servers\apache-tomcat-8.5.24\temp
+09-Apr-2018 16:48:47.753 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+09-Apr-2018 16:48:47.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Apr-2018 16:48:47.755 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Apr-2018 16:48:48.610 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+09-Apr-2018 16:48:48.786 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 16:48:48.834 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 16:48:48.846 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 16:48:49.370 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 16:48:49.372 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 16:48:49.376 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 16:48:49.377 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2225 ms
+09-Apr-2018 16:48:49.412 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2018 16:48:49.412 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+09-Apr-2018 16:48:49.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war]
+09-Apr-2018 16:48:50.372 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 16:48:50.373 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [dev] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 16:48:50.588 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 16:48:50.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war] has finished in [1,239] ms
+09-Apr-2018 16:48:50.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\docs]
+09-Apr-2018 16:48:50.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\docs] has finished in [43] ms
+09-Apr-2018 16:48:50.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\examples]
+09-Apr-2018 16:48:51.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\examples] has finished in [471] ms
+09-Apr-2018 16:48:51.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\HelloWeb]
+09-Apr-2018 16:48:52.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 16:48:53.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\HelloWeb] has finished in [2,033] ms
+09-Apr-2018 16:48:53.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\host-manager]
+09-Apr-2018 16:48:53.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\host-manager] has finished in [51] ms
+09-Apr-2018 16:48:53.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\manager]
+09-Apr-2018 16:48:53.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\manager] has finished in [51] ms
+09-Apr-2018 16:48:53.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\ROOT]
+09-Apr-2018 16:48:53.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\ROOT] has finished in [29] ms
+09-Apr-2018 16:48:53.371 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 16:48:53.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 16:48:53.392 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 16:48:53.398 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4020 ms
+09-Apr-2018 17:02:04.263 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FormAuthenticationTomcat]
+09-Apr-2018 17:02:04.320 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war]
+09-Apr-2018 17:02:04.677 WARNING [localhost-startStop-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 17:02:04.678 WARNING [localhost-startStop-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [dev] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 17:02:04.797 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war] has finished in [477] ms
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Servers\apache-tomcat-8.5.24\conf\logging.properties
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2018 17:04:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 17:04:06.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Servers\apache-tomcat-8.5.24
+09-Apr-2018 17:04:06.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Servers\apache-tomcat-8.5.24\temp
+09-Apr-2018 17:04:06.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+09-Apr-2018 17:04:06.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Apr-2018 17:04:06.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Apr-2018 17:04:07.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+09-Apr-2018 17:04:07.679 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 17:04:07.866 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 17:04:07.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 17:04:08.195 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 17:04:08.195 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 17:04:08.195 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 17:04:08.195 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2035 ms
+09-Apr-2018 17:04:08.226 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2018 17:04:08.226 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+09-Apr-2018 17:04:08.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war]
+09-Apr-2018 17:04:08.851 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 17:04:08.851 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [dev] used in an <auth-constraint> without being defined in a <security-role>
+09-Apr-2018 17:04:09.007 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 17:04:09.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Servers\apache-tomcat-8.5.24\webapps\FormAuthenticationTomcat.war] has finished in [828] ms
+09-Apr-2018 17:04:09.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\docs]
+09-Apr-2018 17:04:09.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\docs] has finished in [32] ms
+09-Apr-2018 17:04:09.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\examples]
+09-Apr-2018 17:04:09.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\examples] has finished in [390] ms
+09-Apr-2018 17:04:09.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\HelloWeb]
+09-Apr-2018 17:04:10.414 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 17:04:11.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\HelloWeb] has finished in [2,001] ms
+09-Apr-2018 17:04:11.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\host-manager]
+09-Apr-2018 17:04:11.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\host-manager] has finished in [47] ms
+09-Apr-2018 17:04:11.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\manager]
+09-Apr-2018 17:04:11.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\manager] has finished in [46] ms
+09-Apr-2018 17:04:11.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\ROOT]
+09-Apr-2018 17:04:11.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Servers\apache-tomcat-8.5.24\webapps\ROOT] has finished in [32] ms
+09-Apr-2018 17:04:11.633 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 17:04:11.648 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 17:04:11.664 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 17:04:11.664 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3475 ms
+09-Apr-2018 17:07:29.243 INFO [http-nio-8080-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+09-Apr-2018 17:07:29.243 INFO [http-nio-8080-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+09-Apr-2018 17:09:39.391 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 17:09:39.532 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 17:09:39.688 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 17:09:39.829 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2018 17:09:39.891 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 17:09:39.922 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 17:09:39.922 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Apr-2018 17:09:39.922 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2018 17:09:39.922 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-openssl-nio-8443"]
+09-Apr-2018 17:09:39.922 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

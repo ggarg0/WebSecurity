@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:24:28 +0530] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [02/Mar/2018:16:24:31 +0530] "GET /manager/html HTTP/1.1" 200 20039
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:24:31 +0530] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:24:31 +0530] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:24:31 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:24:49 +0530] "GET /HelloWeb/ HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:25:07 +0530] "GET /HelloWeb/student.html HTTP/1.1" 200 877
+0:0:0:0:0:0:0:1 - - [02/Mar/2018:16:25:11 +0530] "GET /HelloWeb/hello.html HTTP/1.1" 200 303

@@ -1,0 +1,51 @@
+0:0:0:0:0:0:0:1 - admin [09/Apr/2018:16:49:02 +0530] "GET /manager/html HTTP/1.1" 200 20505
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:50:56 +0530] "GET /HelloWeb/ HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:51:01 +0530] "GET /HelloWeb/empform HTTP/1.1" 500 8768
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:51:05 +0530] "GET /HelloWeb/viewemp HTTP/1.1" 500 8768
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:51:13 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:51:13 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:51:18 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 303 -
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:16:51:18 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:16:51:24 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 500 2895
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:16:52:38 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:16:52:46 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:16:52:53 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 500 2895
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:16:53:01 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 500 2895
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:02:16 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:02:16 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - admin [09/Apr/2018:17:02:27 +0530] "GET /manager/html HTTP/1.1" 200 20505
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:02:29 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:02:29 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:02:34 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 303 -
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:02:34 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:02:46 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 500 2895
+0:0:0:0:0:0:0:1 - admin [09/Apr/2018:17:04:30 +0530] "GET /manager/html HTTP/1.1" 200 20506
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:30 +0530] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:30 +0530] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:33 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:33 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:35 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:04:41 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 303 -
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:04:41 +0530] "GET /FormAuthenticationTomcat/ HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:04:46 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 789
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:04:53 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 789
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:05:41 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:05:55 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:06:01 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - gaurav [09/Apr/2018:17:06:07 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 789
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:14 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:18 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:19 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:34 +0530] "POST /FormAuthenticationTomcat/j_security_check HTTP/1.1" 303 -
+0:0:0:0:0:0:0:1 - tomcat [09/Apr/2018:17:06:34 +0530] "GET /FormAuthenticationTomcat/demo HTTP/1.1" 200 848
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:56 +0530] "GET /HelloWeb/ HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:06:58 +0530] "GET /HelloWeb/hello.html HTTP/1.1" 200 303
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:00 +0530] "GET /HelloWeb/student.html HTTP/1.1" 200 877
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:03 +0530] "GET /HelloWeb/empform HTTP/1.1" 200 964
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:12 +0530] "POST /HelloWeb/save HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:12 +0530] "GET /HelloWeb/viewemp HTTP/1.1" 200 788
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:29 +0530] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:29 +0530] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:29 +0530] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2018:17:07:29 +0530] "-" 400 -
+0:0:0:0:0:0:0:1 - admin [09/Apr/2018:17:07:39 +0530] "GET /manager/html HTTP/1.1" 200 20506
